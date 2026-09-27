@@ -1,6 +1,6 @@
-Ecommerce Analysis Dashboard
+# Ecommerce Analysis Dashboard
 
-Project Overview
+**Project Overview**
 
 This project analyzes the Brazilian ecommerce marketplace using the Olist ecommerce dataset from Kaggle.
 The analysis focuses on revenue trends, customer retention, product category performance, and delivery operations across Brazilian states.
@@ -9,7 +9,7 @@ The project combines SQL analysis in Google BigQuery with an interactive Tableau
 
 ⸻
 
-Dataset
+## Dataset
 
 Dataset source:
 Brazilian Ecommerce Public Dataset by Olist￼
@@ -27,13 +27,13 @@ The dataset contains information about:
 * deliveries
 * geolocation data
 
-Analysis period:
+**Analysis period:**
 
 * September 2016 → August 2018
 
 ⸻
 
-Tech Stack
+**Tech Stack**
 
 * Google BigQuery￼
 * Tableau Public/Desktop￼
@@ -42,7 +42,7 @@ Tech Stack
 
 ⸻
 
-Project Structure
+## Project Structure
 
 ecommerce-analysis/
 │
@@ -66,18 +66,18 @@ ecommerce-analysis/
 
 ⸻
 
-SQL Analysis
+## SQL Analysis
 
 The project uses multiple SQL scripts to create aggregated analytical datasets for Tableau.
 
-Monthly Metrics
+**Monthly Metrics**
 
 * total revenue
 * total orders
 * unique customers
 * average order value (AOV)
 
-Customer Segmentation
+**Customer Segmentation** 
 
 Customers were grouped into behavioral segments based on purchase frequency:
 
@@ -86,7 +86,7 @@ Customers were grouped into behavioral segments based on purchase frequency:
 * Loyal customers
 * VIP customers
 
-Product Category Analysis
+**Product Category Analysis**
 
 Analysis of:
 
@@ -95,7 +95,7 @@ Analysis of:
 * customer count
 * AOV by category
 
-Retention Analysis
+**Retention Analysis**
 
 A cohort retention table was created using:
 
@@ -103,7 +103,7 @@ A cohort retention table was created using:
 * month difference between purchases
 * retained customer counts
 
-Delivery Performance
+**Delivery Performance**
 
 State-level delivery metrics:
 
@@ -114,7 +114,7 @@ State-level delivery metrics:
 
 ⸻
 
-Dashboard Features
+**Dashboard Features**
 
 The Tableau dashboard includes:
 
@@ -128,29 +128,29 @@ The Tableau dashboard includes:
 
 ⸻
 
-Key Insights
+## Key Insights
 
-Customer Retention
+**Customer Retention**
 
 The business is highly dependent on new customers.
 The retention heatmap shows a sharp drop in returning customer activity after the first purchase month.
 
-Revenue Concentration
+**Revenue Concentration**
 
 Revenue growth accelerated significantly during late 2017 and remained relatively stable through 2018.
 
-Category Performance
+**Category Performance**
 
 Certain categories generated high customer volume and revenue simultaneously, while others showed higher AOV but lower order frequency.
 
-Delivery Performance
+**Delivery Performance**
 
 Delivery quality varied considerably across Brazilian states.
 Some states experienced significantly higher delivery delays compared to the overall average.
 
 ⸻
 
-Dashboard Design Decisions
+## Dashboard Design Decisions
 
 Several exploratory visualizations were created during analysis but excluded from the final dashboard to improve readability and focus.
 
@@ -179,7 +179,7 @@ The retention heatmap already provided stronger insight into customer dependency
 
 ⸻
 
-Skills Demonstrated
+## Skills Demonstrated
 
 * SQL aggregations and joins
 * cohort retention analysis
