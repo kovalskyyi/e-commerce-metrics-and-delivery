@@ -166,18 +166,9 @@ The retention heatmap already provided stronger insight into customer dependency
 ⸻
 
 ## Dashboard Overview
+[View interactive Dashboard on Tableau Public](https://public.tableau.com/views/EcommerceAnalysis_17900179650950/Ecommerceanalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
-![Overview](images/dashboard_overview.png)
-
-## Retention Analysis
-
-![Retention](images/retention_heatmap.png)
-
-## Delivery Performance
-
-![Delivery](images/delivery_analysis.png)
-
-⸻
+____
 
 ## Skills Demonstrated
 
